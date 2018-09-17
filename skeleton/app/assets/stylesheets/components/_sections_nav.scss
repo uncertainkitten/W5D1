@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section_nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.section_nav li{
+  margin: 5px;
+}
+
+.section_nav a{
+  font-style: underline;
+}
+
+.section_nav a:hover{
+  background-color: $gray;
+}

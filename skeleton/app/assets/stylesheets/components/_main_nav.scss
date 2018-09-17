@@ -15,13 +15,12 @@
 }
 
 .left-nav > ul > li {
-  display: inline-block;
+  display: inline;
   margin: 15px;
-
 }
 
 .right-nav > ul > li {
-  display: inline-block;
+  display: inline;
   margin: 2px;
 }
 
@@ -34,10 +33,10 @@
   background-color: $light-gray;
 }
 
-// .right-nav > ul > li:hover {
-//   background-color: $dark-blue;
-//   border-color: $darkest-blue;
-// }
+.right-nav > ul > li > button:hover {
+  background-color: $dark-blue;
+  border-color: $darkest-blue;
+}
 
 .left-nav span {
   // padding-bottom: 25px;
@@ -45,6 +44,7 @@
 
 
 .right-nav i {
-  display: inline-block;
-  font-size: 26px;
+  display: inline;
+  font-size: 80px;
+  margin: 5px;
 }

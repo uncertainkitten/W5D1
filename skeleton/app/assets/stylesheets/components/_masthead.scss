@@ -15,6 +15,8 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+  display: flex;
+  flex-direction: row;
 }
 
 .language-nav a {
@@ -25,8 +27,9 @@
 	color: $dark-gray;
 }
 
-.language-nav ul {
-	display: flex;
+.language-nav a:first-of-type {
+  font-weight: bold;
+
 }
 
 .logo {
@@ -44,7 +47,6 @@
 
 .masthead-links li {
 	margin-left: 10px;
-	border-right: 1px solid $light-gray;
 }
 
 .masthead-links button {
@@ -56,13 +58,14 @@
 }
 
 .masthead-links button:hover {
-	background-color: $lightest-gray;
+	background-color: $light-gray;
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
+  
 }
 
 .masthead-links i {

@@ -36,17 +36,8 @@ button:hover {
 */
 
 hr {
-  border: 0px;
-  // padding: 1px, solid $light-gray;
-	height: 0px;
+  height: 1px;
 	background-color: $light-gray;
-  // display: block;
-  // margin-top: 0.5em;
-  // margin-bottom: 0.5em;
-  // margin-left: auto;
-  // margin-right: auto;
-  // border-style: inset;
-  // border-width: 1px;
 }
 
 .hr-top, .hr-bottom {
@@ -57,4 +48,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+a {
+  color: black;
 }

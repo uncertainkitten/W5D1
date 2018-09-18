@@ -4,11 +4,12 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+  border-top: 2px solid $light-gray;
 }
 
 .language-nav {
 	position: absolute;
-	top: -15px;
+	top: -25px;
 	left: calc(50% - (177.78px/2));
 	background: white;
 	border: 1px solid $light-gray;
@@ -17,6 +18,8 @@
 	border-top-right-radius: 3px;
   display: flex;
   flex-direction: row;
+  height: 12px;
+  padding: 0px;
 }
 
 .language-nav a {
@@ -40,13 +43,15 @@
 .masthead-links {
 	display: flex;
 	font-family: $sans-serif;
-	font-size: 11px;
+	font-size: 14px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .masthead-links li {
-	margin-left: 10px;
+	padding-left: 10px;
+  border-left: 1px solid $gray;
+  margin-right: 10px;
 }
 
 .masthead-links button {
@@ -64,8 +69,6 @@
 .masthead-links a,
 .masthead-links button,
 .masthead-links time {
-	margin-right: 10px;
-  
 }
 
 .masthead-links i {
